@@ -64,9 +64,9 @@ glPopMatrix();
 //to create earth
 void earth(void)
 {
-GLfloat ambient[]={1,0,0,1};
-GLfloat specular[]={0,1,1,1};
-GLfloat diffuse[]={.5,.5,.5,1};
+GLfloat ambient[]={0,1,0,1};
+GLfloat specular[]={0,0,0,1};
+GLfloat diffuse[]={0,0.1,0,1};
 GLfloat shininess[]={50};
 matprop(ambient,diffuse,specular,shininess);
 GLfloat lightIntensity[]={.7,.7,.7,1};
@@ -133,9 +133,9 @@ glScaled(2,.02*4,1.6);
 glutSolidCube(1.0);
 glPopMatrix();
 glPopMatrix();
-GLfloat ambient2[]={0,1,0,1};
+GLfloat ambient2[]={0,0,0,1};
 GLfloat specular2[]={1,1,1,1};
-GLfloat diffuse2[]={.2,.6,0.1,1};
+GLfloat diffuse2[]={0.5,0.5,0.5,1};
 GLfloat shininess2[]={50};
 matprop(ambient2,diffuse2,specular2,shininess2);
 //floor
@@ -1014,9 +1014,9 @@ glTranslated(-.02*4,3.9,-.01*4-.25);
 glScaled(1.5+.05,1.5,1.1);
 wall(0.08);
 glPopMatrix();
-GLfloat ambient2[]={1,0,0,1};
+GLfloat ambient2[]={1,1,1,1};
 GLfloat specular2[]={1,1,1,1};
-GLfloat diffuse2[]={.7,1,0.8,1};
+GLfloat diffuse2[]={1,1,1,1};
 GLfloat shininess[]={50};
 matprop(ambient2,diffuse2,specular2,shininess);
 //floor
