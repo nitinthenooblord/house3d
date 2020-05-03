@@ -1497,7 +1497,7 @@ glutAttachMenu(GLUT_RIGHT_BUTTON);
 int main(int argc,char**argv)
 {
 glutInit(&argc,argv);//to initialize the glut library
-glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPT|GLUT_MULTISAMPLE);
+glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH|GLUT_MULTISAMPLE);
 glutInitWindowSize(w,h);
 glutInitWindowPosition(0,0);
 glutCreateWindow("er");
