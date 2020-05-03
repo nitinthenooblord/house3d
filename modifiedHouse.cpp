@@ -1497,7 +1497,7 @@ glutAttachMenu(GLUT_RIGHT_BUTTON);
 int main(int argc,char**argv)
 {
 glutInit(&argc,argv);//to initialize the glut library
-glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
+glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPT|GLUT_MULTISAMPLE);
 glutInitWindowSize(w,h);
 glutInitWindowPosition(0,0);
 glutCreateWindow("er");
@@ -1509,6 +1509,7 @@ menu();
 glutFullScreen();//to see o/p in full screen on monitor
 glEnable(GL_LIGHTING);
 glEnable(GL_LIGHT0);
+glEnable(GL_MULTISAMPLE_ARB);
 glShadeModel(GL_SMOOTH);//smooth shaded
 glEnable(GL_DEPTH_TEST);//to remove hidden surface
 glEnable(GL_NORMALIZE);//to make normal vector to unit vector
