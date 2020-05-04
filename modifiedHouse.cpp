@@ -1506,7 +1506,7 @@ glutDisplayFunc(display);
 glutKeyboardFunc(Keyboard);
 glutSpecialFunc(mySpecialKeyFunc);
 menu();
-glutFullScreen();//to see o/p in full screen on monitor
+//glutFullScreen();//to see o/p in full screen on monitor
 glEnable(GL_LIGHTING);
 glEnable(GL_LIGHT0);
 glEnable(GL_MULTISAMPLE_ARB);
