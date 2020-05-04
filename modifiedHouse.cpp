@@ -1,6 +1,6 @@
 #include<GL/glut.h>
 #include <time.h>
-double w=1280,h=720;
+double w=720,h=480;
 double view[3]={2,2,12.9};
 double look[3]={2,2,2};
 int flag=-1;
