@@ -1,5 +1,8 @@
 #include<GL/glut.h>
 #include <time.h>
+
+
+
 double w=1280,h=720;
 double view[3]={2,2,12.9};
 double look[3]={2,2,2};
